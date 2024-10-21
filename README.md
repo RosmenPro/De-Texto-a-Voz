@@ -19,6 +19,7 @@ Puedes instalar estas bibliotecas utilizando `pip`:
 
 ```bash
 pip install newspaper3k gtts pygame
+```
 
 ## Actualizaciones pendientes:
 * Crearle una interfax gráfica de usurio
