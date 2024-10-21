@@ -22,6 +22,6 @@ pip install newspaper3k gtts pygame
 ```
 
 ## Actualizaciones pendientes:
-* Crearle una interfax gráfica de usurio
+* Crearle una interfax gráfica de usuario
 * Que no pase solo a voz una url que pase también un texto dado
 * Que lea también en inglés
