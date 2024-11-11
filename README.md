@@ -26,6 +26,17 @@ pip install newspaper3k gtts pygame
 * Que no pase solo a voz una url que pase también un texto dado
 * Que lea también en inglés
 
+## Contribuir
+Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, no dudes en crear un pull request.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Autor
+
+- **Rosmén Valencia** - [PerfilGitHub](https://github.com/RosmenPro)
+
+
 ---
 
 # Fast Typing Test
@@ -80,3 +91,15 @@ The user must type the phrase in the input field and then stop the test to see t
 ## Contributing
 
 Contributions are welcome. If you have any suggestions or improvements, feel free to create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+
+- **Rosmén Valencia** - [GitHubProfile](https://github.com/RosmenPro)
+
+
+
+
