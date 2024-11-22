@@ -22,9 +22,9 @@ pip install newspaper3k gtts pygame
 ```
 
 ## Actualizaciones pendientes:
-* Crearle una interfax gráfica de usuario
-* Que no pase solo a voz una url que pase también un texto dado
-* Que lea también en inglés
+* Crearle una interfaz gráfica de usuario.
+* Que no pase solo a voz una URL, que pase también un texto dado.
+* Que lea también en inglés.
 
 ## Contribuir
 Las contribuciones son bienvenidas. Si tienes alguna sugerencia o mejora, no dudes en crear un pull request.
@@ -36,70 +36,42 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENS
 
 - **Rosmén Valencia** - [PerfilGitHub](https://github.com/RosmenPro)
 
-
 ---
 
-# Fast Typing Test
+# Text-to-Speech Project
 
-This desktop application allows users to take fast typing tests with a series of predefined sentences. It measures the time it takes for the user to type the displayed sentence and evaluates accuracy by comparing the typed sentence with the original.
+## Description
+This project converts an article from a provided URL into a playable audio file in MP3 format. It uses Python libraries such as `newspaper3k`, `gtts` (Google Text-to-Speech), and `pygame` to perform text-to-speech conversion.
 
 ## Features
-
-- Random selection of test phrases.
-- Measurement of the time it takes for the user to type a phrase.
-- Evaluation of typing accuracy by comparing the user-typed phrase with the original.
-- Simple graphical user interface using `Tkinter`.
+- Extract text from articles using a URL.
+- Convert the extracted text into an MP3 audio file.
+- Automatically play the audio file once generated.
 
 ## Requirements
+To run this project, you need to have the following Python libraries installed:
 
-To run this project, you need to have installed:
+- `newspaper3k`
+- `gtts`
+- `pygame`
 
-- Python 3.x
-- Tkinter (usually included in standard Python installations)
-
-## Installation
-
-1. Clone this repository or download the files.
-2. Make sure you have `Tkinter` installed. If not, you can install it by running:
-
-   ```bash
-   sudo apt-get install python3-tk  # On Debian/Ubuntu-based systems
-   ```
-
-## Usage
-
-Run the script:
+You can install these libraries using `pip`:
 
 ```bash
-python3 typing_test.py
+pip install newspaper3k gtts pygame
 ```
 
-A window will appear with the following options:
-
-- **Start**: Displays a random sentence for the user to type and begins timing.
-- **Stop**: Ends the test when the user has finished typing and shows the elapsed time along with typing accuracy.
-
-The user must type the phrase in the input field and then stop the test to see the results.
-
-## Code Structure
-
-- **TypingTest**: The main class that handles the application logic.
-- **start_test**: Selects a random phrase and records the start time.
-- **stop_test**: Calculates the total time taken to type the phrase and the typing accuracy.
-- **evaluate_accuracy**: Compares the user-typed phrase with the original and calculates how many words match.
+## Pending Updates:
+* Create a graphical user interface.
+* Process not only a URL but also a given text to convert it to speech.
+* Support reading in English as well.
 
 ## Contributing
-
 Contributions are welcome. If you have any suggestions or improvements, feel free to create a pull request.
 
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
 
-- **Rosmén Valencia** - [GitHubProfile](https://github.com/RosmenPro)
-
-
-
-
+- **Rosmén Valencia** - [GitHub Profile](https://github.com/RosmenPro)
